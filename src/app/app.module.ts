@@ -7,6 +7,7 @@ import { RepositoryComponent } from './repository/repository.component';
 import { UserComponent } from './user/user.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.componen
     RepositoryComponent,
     UserComponent,
     NavbarComponent,
-    GitsearchFormComponent
+    GitsearchFormComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
