@@ -10,6 +10,12 @@ import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.componen
 import { DateCountPipe } from './date-count.pipe';
 import { GitDirective } from './git.directive';
 
+import { UserService } from './user.service';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { UnavailableComponent } from './unavailable/unavailable.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,13 +24,16 @@ import { GitDirective } from './git.directive';
     NavbarComponent,
     GitsearchFormComponent,
     DateCountPipe,
-    GitDirective
+    GitDirective,
+    UnavailableComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
