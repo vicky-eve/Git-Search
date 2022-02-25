@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { UserComponent } from './user/user.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RepositoryComponent,
     UserComponent,
-    NavbarComponent
+    NavbarComponent,
+    GitsearchFormComponent
   ],
   imports: [
     BrowserModule,
