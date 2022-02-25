@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Repo } from '../repo';
 
 @Component({
   selector: 'app-repository',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./repository.component.css']
 })
 export class RepositoryComponent implements OnInit {
+  repo!: Repo;
 
-  constructor() { }
+  constructor(private httpClient:HttpClient) { 
 
-  ngOnInit(): void {
-  }
+}
+ 
+repoSearch(searchName: any){
+  
+}
+ngOnInit(): void {
+}
 
 }
