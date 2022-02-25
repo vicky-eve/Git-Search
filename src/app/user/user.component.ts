@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Repo } from '../repo';
 import { User } from '../user';
-import { UserService } from './user.service';
+import { UserService } from '../user-service/user.service';
 
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
-  styleUrls: ['./user.component.css']
+  styleUrls: ['./user.component.css'],
+  providers: [UserService]
 })
 export class UserComponent implements OnInit {
 

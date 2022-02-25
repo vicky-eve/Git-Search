@@ -10,7 +10,7 @@ import { GitsearchFormComponent } from './gitsearch-form/gitsearch-form.componen
 import { DateCountPipe } from './date-count.pipe';
 import { GitDirective } from './git.directive';
 
-import { UserService } from './user.service';
+import { UserService } from './user-service/user.service';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UnavailableComponent } from './unavailable/unavailable.component';

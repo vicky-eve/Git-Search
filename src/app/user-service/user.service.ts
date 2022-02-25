@@ -18,7 +18,7 @@ export class UserService {
   constructor(private httpClient: HttpClient) {
     this.foundUser = new User("","","","",0,0,0,new Date);
     this.allRepos = new Repo("","","",new Date,0,0,0,0, "");
-    this.username='12moi';
+    this.username='vicky-eve';
   }
   getDetails(myname:string){
     interface getUserDetails{

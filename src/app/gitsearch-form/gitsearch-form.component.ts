@@ -6,7 +6,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./gitsearch-form.component.css']
 })
 export class GitsearchFormComponent implements OnInit {
-  public searchName:string= 'Enter Username here'
+  public searchName:string= 'Enter Username'
   @Output() searchResults = new EventEmitter<any>()
 
   constructor() { }
