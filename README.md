@@ -2,25 +2,32 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
-## Development server
+## Author
+Victoria Eve Awuor
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Project Description
 
-## Code scaffolding
+This is a website where users may enter a GitHub username into a form, submit and see names and description of that person's public repositories . A person can also look for repositories.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Set up instructions and installation
 
-## Build
+* clone this repository https://github.com/vicky-eve/Git-Search
+* open terminal to work in Git-Search directory
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Development
 
-## Running unit tests
+ To contribute
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+* Fork the repo
+* Create a new branch (git checkout -b)
+* Make the  changes in the files
+* Add changes to reflect the changes made
+* Commit your changes (git commit -am )
+* Push to the branch (git push origin)
+* Create a Pull Request
+* Run ng serve for a dev server. The app will automatically reload if you change any of the source files. 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
